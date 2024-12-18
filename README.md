@@ -40,11 +40,11 @@ export CMAKE_PATH=/data/user/0/com.termux/files/home/android-sdk/cmake/3.22.1
 ```  
 
 ### Start VM Protection(Termux)
-
+![](image.webp)
 ```  bash
 bash start-vm.sh
 ```  
-
+![](image2.webp)
 ### Console execution.
 
 ```  bash
