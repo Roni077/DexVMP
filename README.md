@@ -26,7 +26,7 @@ Enable protection for synthetic methods.
 
 ## Configuration
 
-### Termux command Install NDK [r25c](https://github.com/Party233/dexvmp/releases/tag/ollvm):
+### Termux command Install NDK [r25c](https://github.com/Roni077/DexVMP/releases/download/ollvm-termux):
 ```
 cd && pkg upgrade -y && pkg install wget openjdk-17 jq -y && \
 wget https://github.com/Roni077/dexvmp/raw/master/termux-ndk.sh --no-verbose --show-progress -N && \
