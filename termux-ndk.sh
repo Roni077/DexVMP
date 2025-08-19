@@ -4,8 +4,8 @@ install_dir=$HOME
 sdk_dir=$install_dir/android-sdk
 cmake_dir=$sdk_dir/cmake
 ndk_dir="$sdk_dir/ndk"
-ndk_file_name="android-ndk.tar.zst"
-ndk_url="https://github.com/Party233/dexvmp/releases/download/android-ndk-r25c-ollvm/$ndk_file_name"
+ndk_file_name="android-ndk-r25c-ollvm-arch64.tar.xz"
+ndk_url="https://github.com/Roni077/DexVMP/releases/download/ollvm-termux/$ndk_file_name"
 ndk_installed=false
 cmake_installed=false
 
@@ -49,7 +49,7 @@ install_ndk() {
 	if [ -f "$ndk_file_name" ]; then
 		echo "Extracting NDK..."
 		mkdir -p "$ndk_dir"
-		tar --zstd -xf "$ndk_file_name" -C "$ndk_dir"
+		tar -xf "$ndk_file_name" -C "$ndk_dir"
 		rm "$ndk_file_name"
 		ndk_installed=true
 	else
