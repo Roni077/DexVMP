@@ -5,9 +5,11 @@ sdk_dir=$install_dir/android-sdk
 cmake_dir=$sdk_dir/cmake
 ndk_dir="$sdk_dir/ndk"
 ndk_file_name="android-ndk-r28c.tar.xz"
-ndk_url="https://github.com/Roni077/DexVMP/releases/download/$ndk_file_name"
+ndk_url="https://github.com/Roni077/DexVMP/releases/download/ndk-r28c/$ndk_file_name"
 ndk_installed=false
 cmake_installed=false
+
+
 
 run_install_cmake() {
 	download_cmake 3.10.2
